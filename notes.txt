@@ -1,0 +1,154 @@
+6th Oct 2025
+============
+
+    -> Python
+
+        -> Full Stack : Django (Python For Web Apps, Flask, Fast API etc)
+        -> Data Analytics / Data Science / AI (Numpy, Pandas, Matplotlib etc)
+        -> Cloud & DevOps (OS, Sys, Cloud SDK's etc)
+
+    -> Core Python which is common for all above courses (30-35 Days)
+
+        -> Language Fundamentals 
+
+    -> Python is a high-level, general-purpose programming language. 
+    Its design philosophy emphasizes code readability with the use of 
+    significant indentation. Python is dynamically type-checked and garbage-collected.
+
+
+    -> Python is a high-level, general-purpose programming language.    
+
+        -> High-level programming language 
+
+            -> Human Understandable (English) -> python 
+
+        
+        -> Low-level programming language 
+
+            -> Machine Understandable (01010101) => Binary Language 
+
+        -> 01110000 01111001 01110100 01101000 01101111 01101110 
+
+        
+        -> General-purpose programming language
+
+            -> Python, Java, C# etc 
+
+            -> Python 
+
+                -> Desktop Applications 
+                -> Web Applications 
+                -> Scripting 
+
+        -> Domain Specific programming language
+
+            -> SQL, HTML, CSS etc 
+
+            -> SQL : Only Manage Database 
+            -> HTML : Only Manage Web Pages 
+
+    
+    -> Code readability with the use of significant indentation
+
+        -> indentation : structuring code 
+
+            -> Java indentation uses ();{} etc
+
+            -> Python indentation uses space 
+
+        -> Simple Java Program To Add Two Numbers 
+
+            class Main {
+                public static void main (String [] args) {
+                    int num1 = 10;
+                    int num2 = 20;
+                    int sum = num1 + num2;
+                    System.out.println(sum)
+                }
+            }
+
+        -> Simple Python Program To Add Two Numbers 
+
+                num1 = 10
+                num2 = 20
+                sum = num1 + num2
+                print(sum)
+        
+
+    -> Python is dynamically type-checked and garbage-collected
+
+        -> Dynamically type Language 
+
+            -> data : types (text, numeric (999, 4.5))
+
+                -> brand = "nautica" => string
+                -> price = 999 => int 
+                -> rating = 4.5 => float 
+
+
+        -> Static type Language 
+
+            -> Java is an static typed language 
+
+                -> String brand = "nautica";
+                -> int price = 999;
+                -> float rating = 4.5f;
+    
+    -> Garbage-collected
+
+        -> Removing Unused data 
+
+        -> Variables is data (Memory => RAM)
+
+        -> When you are done using Variables -> Python automatically cleans up that memory for you 
+
+    -> Compiled vs Interpreted 
+
+        -> Python is Interpreted Language (execute line by line)
+
+        -> Java is Compiled Language (whole bunch of code at a time)
+    
+    -> Performance 
+
+        -> Compiled Languages are Faster (Better at Performance)
+
+        -> Interpreted Language are Slower (Less at Performance)
+
+    -> Business Owner 
+
+        -> Python is worlds best PROTO TYPE LANGUAGE 
+        -> Python has more libraries (OK)
+        -> Easy to deploy (OK)
+
+        -> Business Requirement (POC)
+
+            -> Python Developers (5 devs => fresh grads )
+
+                -> 3 weeks [ FAST : Developing is FASTER ]
+
+            -> Java Developers (5 devs => fresh grads )
+
+                -> 3 months [ FAST : Developing is SLOWER ]
+
+    -> Programming Paradigms 
+
+        -> Popular Programming Paradigms 
+
+            -> Problem => Solved in many ways 
+
+            -> Came To Institute : walk, bike, car etc 
+
+    -> Python is a multi Paradigm programming language 
+
+        -> Imperative : HOW TO DO (Style) -> Fullstack (Django)
+
+        -> Declarative (Functional Style) : WHAT TO DO (Style) -> DS / AI / cloud (Numpy, Pandas)
+
+    
+    -> English 
+
+        -> Start with Alphabets => Words => Sentences 
+
+    -> Python
+        
+        -> Start with Keywords => programs => functions => methods => classes 
