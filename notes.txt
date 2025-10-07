@@ -152,3 +152,138 @@
     -> Python
         
         -> Start with Keywords => programs => functions => methods => classes 
+
+7th Oct 2025
+============
+
+    -> Key Features Of Python 
+
+        -> Simplicity & Easy Readability 
+
+            -> Simplicity : Easy to understand 
+            -> Readability : space as indentation
+
+        -> Versatile 
+
+            -> Data Domain : Numpy, Pandas, Matplotlib etc 
+            -> Web Apps : Flask, Django
+            -> DevOps / Cloud : Boto3 
+
+        -> Platform Independent 
+
+        -> Dynamic Typed 
+
+        -> Interpreted (Development is faster)
+
+        -> Open Source 
+
+        -> High Level Language 
+
+        -> Functional Language 
+
+        -> Object Oriented Language 
+
+
+    -> Python Used In Popular Applications (Backend)
+
+        https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites
+
+
+-> Requirements For Working with Python
+
+    -> Hardware 
+
+        -> i5 / i3 processor 
+        -> 8 GB RAM / 4 GB RAM 
+        -> 500 GB HDD / SSD 
+
+    -> Software 
+
+        -> Install Python Interpreter (python.org) (*)
+
+            -> In win (python)
+
+            -> In mac (python3)
+
+        -> IDE : Integrated Development Environment (VS CODE) => Any IDE (*)
+
+        -> Git For Version Controlling / Code Tracking => OPTIONAL 
+
+    -> How to write python code 
+
+        -> Command Line Mode 
+
+            -> Temporary, once we close python session, all code is gone (not recommended)
+
+            -> Open CMD / TERMINAL 
+
+                -> python in CMD 
+                -> python3 in TERMINAL
+
+        -> Script Mode (*)
+
+            -> Writing in a file and storing on disk i.e permanent (recommended)
+
+        -> Rules For Writing Code 
+
+            -> Any programming language has Syntax (Rules & Guidelines)
+
+        -> Compare With English 
+
+            -> i taking class today 10 AM now at 11 AM (invalid)
+
+            -> i'm taking session from 10 AM to 11 AM (valid)
+
+            -> English has 26 Alphabets (abcd.....z)
+
+            -> Python has Keywords (35 Keywords)
+
+            -> Keywords + Syntax ==> Application / Program 
+
+        -> Python Keywords
+
+            -> https://docs.python.org/3/reference/lexical_analysis.html#keywords
+
+                False      await      else       import     pass
+                None       break      except     in         raise
+                True       class      finally    is         return
+                and        continue   for        lambda     try
+                as         def        from       nonlocal   while
+                assert     del        global     not        with
+                async      elif       if         or         yield
+
+
+        -> In python we use # for comments 
+        
+        -> One Of Rules in Python 
+
+            -> Numerics you can directly use in print()
+
+            -> Text you cannot directly use in print()
+
+                -> In python text is special and it needs to be enclosed in 
+
+                    'text' or "text" or """text"""
+
+    -> Identifiers 
+
+        -> In Python Identifiers are names given to 
+
+            -> Variables 
+            -> Functions
+            -> Classes 
+            -> Objects 
+            -> Methods 
+            -> etc 
+
+        -> Identifiers have rules 
+
+            -> Can Contain 
+
+                -> Letters [a-z,A-Z]
+                -> Digits [0-9]
+                -> Underscore [ _ ]
+
+            -> Must Start with 
+
+                -> A letter or Underscore   
