@@ -287,3 +287,60 @@
             -> Must Start with 
 
                 -> A letter or Underscore   
+
+8th Oct 2025
+============
+
+    -> Data : Hard Disk - Permanent Storage - Slow 
+    -> Data : Memory (RAM) - Temporary Storage - Fast 
+
+    -> Variables 
+
+        -> Variables are names for memory locations  
+
+        -> Computer -> Memory (RAM) -> Variable 
+
+        -> How To Store (Syntax)
+
+            -> variable_name = value 
+
+                -> variable_name should follow Identifier Rules 
+                -> = (assignment operator)
+                -> value (data)
+
+        -> Variables Allow You To 
+
+            -> Assign Data (Store Data)
+            -> Retrieve Data 
+            -> Manipulate Data (If Required)
+
+    -> How To Confirm Variable is a memory location ?
+
+        -> function : does a task 
+
+        -> print() : print on stdout 
+
+        -> id() : will display memory address 
+
+        -> type() : will display data type of Variable
+
+    -> NOTE : In Python Variables can change during the execution dynamically 
+
+    -> NOTE : Memory Model Of Python 
+
+        -> Simple Data Type : holds one value in single Variable
+
+        -> Complex Data Type : holds multiple values in single Variable
+
+    -> Concatenation 
+
+        -> Joining Multiple Strings Using + (concat operator) 
+
+        -> Addition operator which is + which adds numeric values 
+
+            -> Polymorphism (OOP)
+
+                -> Poly = Many 
+                -> Morphs = Forms 
+
+
