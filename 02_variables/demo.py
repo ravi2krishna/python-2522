@@ -118,3 +118,19 @@ a = c = d = 10
 print(a)
 print(c)
 print(d)
+
+# Profile 
+name = "Ravi"
+age = 25
+
+#  -> without interpolation (till python 2)
+print("My Name is "+name + " and my age is",age  )
+print("My Name is ",name + " and my age is",age  )
+
+print("My Name is "+name + " and my age after 5 years would be",age+5  )
+
+
+# With interpolation
+print("My Name is {name} and my age is {age}")
+print(f"My Name is {name} and my age is {age}")
+print(f"My Name is {name} and my age is {age+5}")

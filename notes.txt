@@ -344,3 +344,96 @@
                 -> Morphs = Forms 
 
 
+9th Oct 2025
+============
+
+    -> Interpolation 
+
+        -> Interpolation technique replaces, place holders with
+            actual values dynamically
+
+        -> We can achieve Interpolation in python using 
+        f-strings (supports only from python 3)
+
+        -> f-strings (Formatted String Literals)
+
+        -> Syntax : 
+
+            -> We use {} as place holders     
+
+    -> To Manipulate Data (If Required) in Python, we need OPERATORS 
+
+
+    -> Operators
+
+        -> Operator are special symbols, performs operations 
+        on Variables and their Values 
+    
+    -> Operator Types 
+
+        -> Arithmetic Operators 
+
+            -> + - * / 
+            -> % : Modulus (Remainder)
+            -> // : Floor Division (same as division but rounds off result)
+            -> ** : Exponentiation (Calculate Power)
+
+            -> Calculate EMI for a product 
+
+                -> Actual Price
+                -> Down Payment 
+                -> Interest Rate 
+                -> Tenure (years)
+                -> Calculate EMI 
+
+        -> Assignment Operator (=)
+
+        -> Compound Assignment Operator 
+
+            -> Combine Arithmetic Operators with Assignment Operator
+
+            -> For Writing Concise Code (Short Hand Code)
+
+                -> x = 10
+                -> x = x + 5 (long form)
+                -> x += 5 (short form)
+
+                -> x = x * 5 
+                -> x *= 5 (short form)
+
+            -> Increment / Decrement : ++ -- 
+
+                -> Python Doesn't Support Above (++ -- )
+
+        -> Comparison Operators
+
+            -> Compare Values and results in boolean (True/False)
+            
+            -> Widely used in Conditionals 
+
+            == != > < >= <= 
+
+        -> Logical Operators
+
+            -> Used To Check Multiple Conditionals and 
+            results in boolean (True/False)
+
+            -> Widely used in Conditionals 
+
+            -> and : validates if both Conditions are True, then result is True
+            -> or : validates if one of the Conditions is True, then result is True
+            -> not : negates, if true then false and vice versa
+
+                X       Y       X and Y    X or Y    not X    not Y
+                T       T           T         T         F       F
+                T       F           F         T         F       T
+                F       T           F         T         T       F
+                F       F           F         F         T       T 
+
+        -> Membership Operators
+
+            -> Used to check if a sequence is present 
+
+                -> in : return True, if object is in given sequence
+
+                -> not in : return True, if object is not in given sequence
