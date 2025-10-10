@@ -109,3 +109,47 @@ print(found)
 # found = find_word in data # TypeError: argument of type 'int' is not iterable
 # print(found)
 
+data = "1001"
+# print(dir(data)) # __iter__
+
+# Identity Operators
+n1 = 10
+n2 = 10
+
+print(n1 is n2)
+print(n1 == n2)
+
+n1 = 10
+n2 = 10.0
+
+print(n1 is n2)
+print(n1 == n2)
+
+# Bitwise Operators
+n1 = 5 # 0000000000000101
+n2 = 3 # 0000000000000011
+       # 0000000000000111
+       # 0000000000000001
+
+print(n1 & n2)
+print(n1 | n2)
+
+# Calculate EMI for a acr 
+on_road_price = 2000000
+down_payment = 500000
+interest_rate = 9.5
+loan_period_years = 4 
+
+# calculations
+loan_amount = on_road_price - down_payment
+months = loan_period_years * 12
+monthly_interest_rate = interest_rate / (12*100)
+
+# EMI Calculation 
+# EMI = [P x R x (1+R)^N] / [(1+R)^N – 1]
+emi = (loan_amount*monthly_interest_rate*(1+monthly_interest_rate) ** months) / (((1+monthly_interest_rate) ** months) - 1)
+
+payable_amount = emi * months
+
+print(emi)
+print(payable_amount)
