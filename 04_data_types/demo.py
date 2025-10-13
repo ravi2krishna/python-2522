@@ -49,3 +49,36 @@ class Student:
 
 data = Student()
 print(type(data))
+
+# Data 
+n1 = 10 # int
+n2 = 5.5 # float 
+
+sum = n1 + n2 
+print(sum) # 15.5 
+print(type(sum)) # 15.5 
+
+# Value 
+pi = 3.14 # float 
+print(type(pi))
+# my req is convert to integer
+pi_int = int(pi)
+print(pi_int)
+print(type(pi_int))
+
+# some user in web app gave some rating (string)
+rating = "4"
+print(type(rating))
+
+# now requirement is increment rating by 1 
+# type casting
+rating = int(rating)
+rating = rating + 1 # TypeError: can only concatenate str (not "int") to str
+print(rating)
+print(type(rating))
+
+int = 4
+str_int = str(int)
+print(type(str_int))
+
+

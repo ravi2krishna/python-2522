@@ -513,3 +513,75 @@
 
             class CustomDataType:
                 implementations
+    
+13th Oct 2025
+=============
+
+    -> Type Conversion / Implicit Conversion 
+
+        -> Type Conversion means python automatically converts one data type to another 
+
+        -> Python automatically performs Type Conversion as it's SAFE 
+
+    -> Type Casting / Explicit Conversion 
+
+        -> Type Casting means, you need to explicitly convert one data type to another 
+
+        -> Python doesn't automatically performs Type Casting as it's UNSAFE  (data loss)
+
+        -> We use some predefined functions to achieve Type Casting
+
+    -> Control Structures / Statements 
+
+        -> Till now the program executes sequentially line by line, now 
+        we want to control the flow of program
+
+        -> Python has given following  Control Structures
+
+            -> Conditional Statements (Decision Making Statements)
+
+            -> Looping Statements (Iteration Statements)
+
+            -> Branching Statements (Jump Statements)
+        
+        -> Indentation
+
+            -> Indentation refers to space (how to use spaces in programs)
+
+            -> When Working with Blocks (control Structures, functions, classes etc)
+
+            -> Either use a single or tab (don't use both, fix to one )
+
+                -> How many spaces ? 
+
+                    -> At least 1 (python recommended is 4 spaces i.e tab)
+            
+            -> All lines in the same block should have same indentation level 
+
+    -> Conditional Statements 
+
+        -> Conditional Statements / Decision Making Statements are used to run 
+            a block of code based on condition result 
+
+            -> if Statement : runs a block of code, only if the condition is True
+
+                -> syntax 
+                    if condition:
+                        Statements
+
+            -> if else Statement : runs a block of code, if the condition is True
+                                   runs another block of code, if the condition is False
+                
+                -> syntax 
+                    if condition:
+                        Statements
+                    else:
+                        Statements
+
+            -> NOTE: input() function reads the input from user / keyboard 
+
+            -> NOTE : ternary operator - same as if-else with short hand code (concise code)
+
+                        variable = value_if_true if condition else value_if_false 
+
+            -> elif ladder : runs blocks of code,  with multiple Conditional checks 
