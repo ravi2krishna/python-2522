@@ -585,3 +585,42 @@
                         variable = value_if_true if condition else value_if_false 
 
             -> elif ladder : runs blocks of code,  with multiple Conditional checks 
+
+14th Oct 2025
+=============
+
+    -> Other Programming Languages Like Java / C++ (switch case)
+
+    -> match-case was introduced in python 3.X Onwards
+
+    -> it's an alternative to elif approach 
+
+    -> Nested Conditionals 
+
+        -> Conditionals inside Conditionals
+
+
+    -> Looping Statements (Iteration Statements)
+
+        -> Loops - Execute a block of code repeatedly, based on
+                   condition 
+        
+        -> When To Use : When You want to repeat a task multiple times 
+
+        -> Types Of Loops 
+
+            -> while loop 
+
+                -> Runs/Repeats a block of code, as long as the condition is true 
+
+                -> You can use while loop, when you don't know number of iterations in advance 
+
+            -> for loop 
+
+                -> Used to iterate over a sequence data type (strings, lists etc)
+
+                -> You can use for loop, when you know number of iterations in advance 
+
+
+
+
