@@ -622,5 +622,43 @@
                 -> You can use for loop, when you know number of iterations in advance 
 
 
+15th Oct 2025
+=============
+
+    -> for loop demo works with sequences i.e should have __iter__ (dir())
+
+    -> range() 
+
+        -> this function generates a sequence of numbers, mostly used With
+            loops and conditions
+
+        -> syntax 
+
+            range(start,stop,step) 
+                -> start default is 0 (included)
+                -> stop at this value (excluded)
+                -> step increment (default is 1)
+
+            range(5) # [0,1,2,3,4]
+            range(1,6) # [1,2,3,4,5]
+            range(2,10,1) # [2,3,4,5...9]
+            range(2,10,2) # [2,4,6...8]
+
+
+    -> Nested Loops 
+
+        -> Loops inside loops 
+
+        syntax for nested for loop 
+
+            for var_outer in range(choice):
+                for var_inner in range(choice):
+                    // logic
+
+    
+
+
+
+
 
 
