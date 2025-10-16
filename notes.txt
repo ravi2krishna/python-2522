@@ -655,7 +655,16 @@
                 for var_inner in range(choice):
                     // logic
 
-    
+16th Oct 2025
+=============    
+
+    -> Branching Statements (Jump Statements)
+
+        -> break : helps you exit loops
+
+        -> continue : helps you skip the current iteration in loop 
+
+        -> pass : acts as a placeholder, does nothing 
 
 
 
