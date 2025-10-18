@@ -671,8 +671,54 @@
 
     -> Solutions for conditionals and loops tasks 
 
-    
+
+18th Oct 2025
+=============    
+
+    -> Strings 
+
+        -> Strings are one of the most widely used data types in python 
+
+        -> String is a sequence of characters enclosed in single quotes or double quotes (recommended)
+
+            -> We can enclose Strings in triple quotes (recommended for multi line strings)
+
+            -> single line strings - single quotes or double quotes
+
+            -> multi line strings - triple single quotes or triple double quotes
 
 
+        -> Rules when defining strings 
+
+            -> Strings must be enclosed single quotes or double quotes or single quotes or triple double quotes
+
+            -> When you need single quote in a string, enclose them in double quotes (" ")
+
+            -> When you need double quote in a string, enclose them in single quotes (' ')
+
+            -> When you need both single & double quotes in a string, enclose them in triple quotes (''' ''')
 
 
+    -> Access Strings 
+
+        -> Access using variable 
+
+        -> Indexing 
+        
+            -> Python allows you to access individual characters inside a string 
+                using index number 
+            
+            -> index starts from zero and increments 
+
+            -> text = "python"
+
+
+                0   1   2   3   4   5 (Positive Indexing) (Left To Right) (---->)
+                p   y   t   h   o   n
+                -6  -5  -4  -3  -2  -1 (Negative Indexing) (Right To Left) (<----)
+
+            -> Syntax 
+
+                string[index]
+
+            -> Accessing invalid index will raise errors (IndexError)                 
