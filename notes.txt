@@ -722,3 +722,38 @@
                 string[index]
 
             -> Accessing invalid index will raise errors (IndexError)                 
+
+21st Oct 2025
+=============
+
+    -> Slicing 
+
+        -> Extracting a portion of string from another string(substring), we use index Numbers
+
+            range(start, stop, step) 
+            slice[start: stop: step]
+
+                -> start default is 0 (included)
+                -> stop at this value (excluded)
+                -> step increment (default is 1)
+
+
+    -> String Concatenation 
+
+        -> Joining Strings 
+
+    -> Formatted String Literals (f-strings)
+
+        -> using Interpolation {} with f 
+
+    -> String Repetition 
+
+        -> Repeat Strings using "*" 
+
+    -> Strings are Immutable 
+
+        -> Immutable means cannot be changed
+    
+    -> String is a predefined class in python and it has various methods 
+
+        -> String operations can be performed using string methods 
