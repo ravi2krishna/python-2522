@@ -757,3 +757,18 @@
     -> String is a predefined class in python and it has various methods 
 
         -> String operations can be performed using string methods 
+
+22nd Oct 2025
+=============
+
+    -> String Methods 
+
+        -> String methods in Python are built-in functions that operate on 
+        string objects, allowing for various manipulations, transformations, and checks. 
+        It is important to note that strings in Python are immutable, 
+        meaning these methods do not modify the original string but 
+        instead return a new string with the applied changes.
+
+        -> https://docs.python.org/3/library/stdtypes.html#string-methods
+
+        -> RaVI2KRIshna -> ravi2krishna@gmail.com 
