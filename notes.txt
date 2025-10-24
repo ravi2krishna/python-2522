@@ -776,4 +776,59 @@
 23rd Oct 2025
 =============
 
-    -> 
+    -> String Method Use cases 
+
+24th Oct 2025
+=============
+
+    -> Simple Data Types 
+
+        -> Can hold one value 
+
+            -> data = 10 
+            -> data = "hello" 
+            -> data = 10.5 
+
+    -> Complex Data Types 
+
+        -> Can hold multiple value 
+
+            -> data = [10,20,30,40,50] 
+            -> data = ["hello","hi","hey"]  
+            -> data = [10.5,3.5,2.0]
+
+    -> Python provides following classes to work with complex data types 
+
+        -> List 
+        -> Tuple
+        -> Dictionary
+        -> Set 
+    
+    -> List 
+
+        -> List is a data structure, which allows you to store multiple values in 
+            single variable
+
+        -> Lists are represented using [ ] or list class, separator is , 
+
+        -> Accessing the data in lists 
+
+            -> Like in Strings, we have index which starts from Zero - 0
+
+            -> Both Positive and Negative Index supports 
+
+            -> Indexing & Slicing Same as Strings 
+
+                slice[start: stop: step]
+
+                -> start default is 0 (included)
+                -> stop at this value (excluded)
+                -> step increment (default is 1)
+
+            -> Operators
+
+            -> Looping 
+
+            -> Conditionals
+
+            -> Lists Allows "DUPLICATES" 
