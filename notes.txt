@@ -832,3 +832,8 @@
             -> Conditionals
 
             -> Lists Allows "DUPLICATES" 
+
+25th Oct 2025
+=============
+
+    -> List Methods / Operations 
