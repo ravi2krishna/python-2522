@@ -837,3 +837,87 @@
 =============
 
     -> List Methods / Operations 
+
+27th Oct 2025
+=============
+
+    -> List Characteristics
+
+        -> Order : Lists are Ordered (insertion order is preserved)
+
+        -> Mutable : Lists are Mutable (can be changed)
+
+        -> Duplicates : Lists Allow Duplicates 
+
+    -> Tuples 
+
+        -> Tuples is a data structure, which allows you to store multiple values in 
+            single variable
+
+        -> Tuples are represented using ( ) or tuple class, separator is , 
+
+        -> Accessing the data in Tuples 
+
+            -> Like in Strings, we have index which starts from Zero - 0
+
+            -> Both Positive and Negative Index supports 
+
+            -> Indexing & Slicing Same as Strings 
+
+                slice[start: stop: step]
+
+                -> start default is 0 (included)
+                -> stop at this value (excluded)
+                -> step increment (default is 1)
+
+            -> Operators
+
+            -> Looping 
+
+            -> Conditionals
+
+            -> Tuples Allows "DUPLICATES" 
+
+        -> NOTE : Tuples are "READ ONLY" LISTS i.e Tuples are Immutable     
+
+        -> Tuples Characteristics
+
+            -> Order : Tuples are Ordered (insertion order is preserved)
+
+            -> Immutable : Tuples are IMmutable (cannot be changed i.e fixed data)
+
+            -> Duplicates : Lists Allow Duplicates 
+
+    -> Dictionaries 
+
+         -> Dictionaries is a data structure, which allows you to store multiple "keys and values" in 
+            single variable
+
+            -> key:value {item / pair}
+
+        -> Dictionaries are represented using { } or dict class, separator is , 
+
+        -> Accessing the data in Dictionaries 
+
+            -> Dictionaries don't have index 
+
+                -> NO INDEXING
+
+                -> NO SLICING
+
+            -> NOTE : You can access data using "key"
+
+            -> Operators
+
+            -> Looping 
+
+            -> Conditionals
+
+            -> Dictionaries Allows "DUPLICATES" in values
+                
+                -> NOTE: But not in keys i.e overridden 
+
+            -> NOTE : Keys should be immutable objects only,
+                    values can be any object 
+
+            -> More than 90% of times, keys will be "strings"
