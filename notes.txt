@@ -921,3 +921,12 @@
                     values can be any object 
 
             -> More than 90% of times, keys will be "strings"
+
+29th Oct 2025
+=============
+
+    -> Dictionary Real world use cases
+
+    -> https://www.convertsimple.com/wp-content/uploads/2022/05/json-example.png
+
+    
