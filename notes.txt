@@ -995,3 +995,30 @@
 
         -> Frozen Sets cannot be represented using symbols, only with class 
         
+31st Oct 2025
+=============
+
+    -> Sets & Frozen sets methods 
+
+    -> Set Characteristics
+
+            -> Order : Set are Unordered (insertion order is not preserved)
+
+            -> Mutable : Sets are Mutable (can be changed)
+
+            -> Duplicates : Set don't Allow Duplicates 
+
+    -> Frozen Set Characteristics
+
+            -> Order : Frozen Set are Unordered (insertion order is not preserved)
+
+            -> Immutable : Frozen Sets are Immutable (cannot be changed)
+
+            -> Duplicates : Frozen Set don't Allow Duplicates 
+
+    -> Building Applications 
+
+        -> List (When to use)
+        -> Tuple (When to use)
+        -> Dictionary (When to use)
+        -> Set (When to use)
