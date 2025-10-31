@@ -929,4 +929,69 @@
 
     -> https://www.convertsimple.com/wp-content/uploads/2022/05/json-example.png
 
+30th Oct 2025
+=============
+
+    -> Dictionary Characteristics
+
+            -> Order : Dictionaries are Ordered (insertion order is preserved)
+
+            -> Mutable : Dictionaries are Mutable (can be changed)
+
+            -> Duplicates : Dictionaries Allow Duplicates in values, coming 
+                            to keys will be overridden 
     
+    -> Sets 
+
+         -> Set is a data structure, which allows you to store multiple "values" in 
+            single variable
+
+        -> Sets are represented using { } with only values or set class, separator is , 
+
+        -> Sets are UUU 
+
+            -> U - Unique Data (No Duplicates)
+
+            -> U - Unindex 
+
+            -> U - Unordered
+
+        -> Accessing the data in Sets 
+
+            -> Sets don't have index 
+
+                -> NO INDEXING
+
+                -> NO SLICING
+
+            -> NOTE : You can access data but random access
+
+            -> Operators
+
+            -> Looping 
+
+            -> Conditionals
+
+        -> Sets are specially used with math sets operations 
+
+            -> Union 
+            -> Intersection
+            -> Difference 
+            -> etc 
+
+        -> Sets are Mutable in nature 
+
+    -> Frozen Set 
+
+        -> Frozen Sets are UUU 
+
+            -> U - Unique Data (No Duplicates)
+
+            -> U - Unindex 
+
+            -> U - Unordered
+        
+        -> Frozen Sets are Immutable unlike sets  
+
+        -> Frozen Sets cannot be represented using symbols, only with class 
+        

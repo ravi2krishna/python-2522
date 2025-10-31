@@ -62,3 +62,23 @@ data = data.items()
 for item in data:
     print(item)
     print(item[0])
+
+# copy() : create a copy of dictionary 
+data = {"a":"apple","b":"banana"} 
+print(data)
+backup = data.copy()
+print(backup)
+
+# setdefault() : returns value of a key if present, if not present then sets 
+data = {"a":"apple","b":"banana"} 
+print(data)
+# data.setdefault() # TypeError: setdefault expected at least 1 argument, got 0
+out = data.setdefault("b","blueberry")
+print(data)
+print(out)
+
+data = {"a":"apple","b":"banana"} 
+print(data)
+out = data.setdefault("c","cherry")
+print(data)
+print(out)
