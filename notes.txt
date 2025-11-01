@@ -1022,3 +1022,16 @@
         -> Tuple (When to use)
         -> Dictionary (When to use)
         -> Set (When to use)
+
+1st Nov 2025
+=============
+
+    -> CRUD Application (Database - Web Applications)
+
+        -> C - Create 
+        -> R - Read
+        -> U - Update
+        -> D - Delete 
+
+ 
+
