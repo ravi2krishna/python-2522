@@ -67,14 +67,55 @@ while True:
             print("Student Added")
             print(students) # for confirmation i.e test
                    
-            
-        
     elif choice == "2":
         print("Updating Student")
+        student_id = input("Enter ID: ")
+        if student_id in students:
+            new_name = input("Enter New Name: ").title()
+            students[student_id]["name"] = new_name
+            # students[student_id] = {"name":new_name}
+            print("Student Updated")
+            
+        else:
+            print("Student doesn't exists")
+        
+        print(students) # for confirmation i.e test
+                   
     elif choice == "3":
         print("Deleting Student")
+        student_id = input("Enter ID: ")
+        if student_id in students:
+            remove_student = students.pop(student_id)
+            print(remove_student)
+        else:
+            print("Student doesn't exists")
+            
+        print(students) # for confirmation i.e test
+
+        
     elif choice == "4":
         print("Listing Student")
+        # {'101': {'name': 'John', 'scores': [90], 'skills': {'git'}}, 
+        # '102': {'name': 'Mike', 'scores': [90], 'skills': {'python'}}}
+        for sid, data in students.items():
+            name = data['name']
+            scores = data['scores']
+            avg_score = sum(scores) / len(scores)
+            high_score = max(scores)
+            least_score = min(scores)
+            skills = data['skills']
+            skills_count = len(skills)
+            
+            print(f"ID: {sid}")
+            print(f"Name: {name}")
+            print(f"All Scores: {scores}")
+            print(f"Average Score: {avg_score}")
+            print(f"Maximum Score: {high_score}")
+            print(f"Least Score: {least_score}")
+            print(f"All Skills: {skills}")
+            print(f"Skills Count: {skills_count}")
+        
+        
     elif choice == "5":
         print("Exiting Application")
         print("="*50)

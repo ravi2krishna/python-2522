@@ -1033,5 +1033,44 @@
         -> U - Update
         -> D - Delete 
 
- 
+3rd Nov 2025
+=============
+
+    -> CRUD Application Continued 
+
+    -> Functional Style Programming
+
+    -> Functions 
+
+        -> In Python, a function is a named, reusable block of code 
+        designed to perform a specific task. 
+        
+        -> Why Functions  
+            
+            -> For writing modular, organized and efficient code.
+
+            -> Functions can break down complex problems into smaller and simpler 
+                manageable sub tasks for promoting code modularity 
+
+            -> You can call a function multiple times, once defined, so that we can 
+                achieve code Reusability 
+
+        -> Functions are defined using the def keyword, followed by the function name, 
+            parentheses (which may contain parameters), and a colon. 
+            The code within the function is indented.
+
+
+        -> syntax 
+
+            def function_name():
+                Statements 
+            
+            def function_name(parameters):
+                Statements 
+
+
+        
+
+
+
 
