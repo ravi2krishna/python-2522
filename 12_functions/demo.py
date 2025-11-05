@@ -136,4 +136,117 @@ def bank_transactions(**trans):
 bank_transactions(jan=1000,feb=2000,mar=5000)    
 bank_transactions(apr=6000,may=7000)    
 
+
+# Without Return 
+def add(a,b):
+    a + b
+
+add(10,20)
+print(add(10,20))
+
+# With Return 
+def add(a,b):
+    return a + b
+
+add(10,20)
+print(add(10,20))
+
+def add(a,b):
+    return a + b
+    print("See if this code executes") # Code is structurally unreachable
+print(add(100,200))
+
+def math_ops(a,b):
+    return a + b
+    return a - b
+    return a * b
+
+print(math_ops(30,20))
+
+def math_ops(a,b,opr):
+    if opr == "+":
+        return a + b
+    elif opr == "-":
+        return a - b
+    elif opr == "*":
+        return a * b
+    else:
+        return "Invalid Operator Selected"
     
+print(math_ops(20,10,"+"))
+print(math_ops(20,10,"-"))
+print(math_ops(20,10,"*"))
+print(math_ops(20,10,"/"))
+
+# Function Composition 
+def add(a,b):
+    return a+b
+
+def sub(c,d,e): # add c+d then minus e
+    return add(c,d) - e 
+
+print(sub(3,4,5)) 
+
+def greet():
+    return "Hello"
+
+def morning():
+    print(greet())
+    return "Good Morning"
+
+print(morning())
+
+# Local Scope
+def add():
+    la = 10 # local variables
+    lb = 5
+    print(la) # accessed within function 
+    print(lb)
+    
+add()
+
+# print(la)  # accessed outside function # NameError: name 'la' is not defined. Did you mean: 'a'?
+
+# Local Scope
+def add(la,lb):
+    print(la) # accessed within function 
+    print(lb)
+    
+add(3000,2000)
+
+# print(la) NameError: name 'la' is not defined. Did you mean: 'a'?
+
+# global variable 
+ga = 30 
+
+def add(la,lb):
+    print(la)
+    print(lb)
+    print(ga) # global accessed within function 
+    
+add(10,20)
+print(ga) # global accessed outside the function 
+
+# global variable 
+ga = 30 
+
+# name conflict 
+def add(la,lb,ga): # here ga is local 
+    print(la)
+    print(lb)
+    print(ga)
+    print(globals()['ga'])
+    
+add(1,2,3)
+
+# global keyword scenario 
+count = 0
+count += 1
+print(count)
+
+count = 0
+def increment():
+    global count
+    count += 1
+increment()
+print(count)

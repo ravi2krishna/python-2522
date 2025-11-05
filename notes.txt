@@ -1139,3 +1139,52 @@
             their corresponding values become the dictionary values.
         
         -> Include a parameter prefixed with two asterisks (**) in the function definition
+
+
+5th Nov 2025
+=============
+
+    -> In Python, the "return" keyword is used within a function to send a value 
+        back to the part of the code that called the function.
+
+    -> when you don't use a return, by default a function returns None 
+
+    -> If you use return, make sure it's the last part of Statement to be executed
+
+    -> If you have multiple return Statements, first will be considered 
+
+    -> If multiple returns are present, and used with conditionals, you can control flow 
+
+    -> Function Composition 
+
+        -> Function Calling Another Function 
+
+    -> Scopes in Functions 
+
+        -> Scope : Inside the code block, where you can access variable depends on Scope
+
+        -> Local Scope
+
+        -> Global Scope 
+
+    -> Local Scope
+
+        -> A local variable declared inside the function 
+        -> it's lifetime exists only within the function
+        -> we cannot use them outside the function 
+        -> NOTE : Parameters we are passing to the functions, are also local variables 
+
+    -> Global Scope
+
+        -> A Global variable declared outside the function 
+        -> it's lifetime exists within the function as well as outside function
+        -> As global variables can be accessed inside the functions, there can be
+            name conflicts, in this scenario the preference is given to local variables 
+
+                -> NOTE : To Access Global Variable in above scenario, use globals()
+
+        -> If you want global variables to be changed inside the function, we cannot 
+            do that directly 
+
+                -> NOTE : To change Global Variable inside function, use global keyword
+            
