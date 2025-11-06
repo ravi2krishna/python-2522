@@ -250,3 +250,63 @@ def increment():
     count += 1
 increment()
 print(count)
+
+# Built In Functions 
+# type, len, max, min, dir, id, input
+print(type(count))
+print(id(count))
+
+# Built In Functions via modules
+import random
+random_value = random.randint(1000,9999)
+print(random_value)
+
+# External Functions via modules
+import requests
+response = requests.get('https://www.python.org/')
+print(response.status_code)
+
+response = requests.get('https://www.python.org/ravi')
+print(response.status_code)
+
+if response.status_code != 200 :
+    print("Resource Not Found")
+else:
+    print("Resource Found")
+    
+# User Defined Function i.e Without Lambda 
+def add(a,b):
+    return a+b 
+print(add(10,20))
+
+# With Lambda Function
+# lambda arguments : expression
+sum = lambda a,b : a+b
+print(sum(20,30))
+
+# With Lambda Function IILE 
+print((lambda a,b : a+b)(200,300))
+
+# without lambda 
+def is_even_num(num):
+    if num % 2 == 0:
+        return True 
+    else:
+        return False 
+
+print(is_even_num(5))
+print(is_even_num(10))
+
+# with lambda
+# print((lambda a,b : a+b)(200,300))
+print((lambda num : num % 2 == 0)(11))
+print((lambda num : num % 2 == 0)(13))
+print((lambda num : num % 2 == 0)(12))
+
+# with lambda using conditions checks 
+# check for num is positive, negative and zero
+print((lambda num : "Positive" if num > 0 else "Negative" if num < 0 else "Zero")(0))
+    
+
+employee_info = lambda emp_name,emp_email,emp_location: print(f"Hi {emp_name}, your email is {emp_email} and work location is {emp_location}")
+employee_info(emp_name="ravi",emp_location="hyderabad",emp_email="ravi@gmail.com")

@@ -1188,3 +1188,59 @@
 
                 -> NOTE : To change Global Variable inside function, use global keyword
             
+
+6th Nov 2025
+=============
+
+    -> Types Of Functions 
+
+        -> Built in functions 
+
+            -> Pre defined functions, already part of standard python library 
+
+            -> No need to explicitly create again using def keyword
+
+            -> common utilities are generally predefined functions 
+
+            -> examples 
+
+                -> type, len, max, min, dir, id, input etc 
+
+        -> Module Based Functions 
+
+            -> Pre defined functions, given by vendors 
+
+            -> Download modules or use system builtin modules 
+
+            -> utilities designed for specific functionalities 
+
+        -> User Defined Functions 
+
+            -> User Defined functions are created by Developers, using def keyword
+
+            -> Custom functionalities based on user given Requirements
+
+            -> add(), emp_info() etc 
+
+        
+        -> Lambda Functions (Anonymous Functions) 
+
+            -> A lambda function in Python is a small, anonymous function 
+            defined with the "lambda" keyword. 
+            
+            -> Unlike standard functions defined with def, lambda functions are 
+            restricted to a "single expression", which is "implicitly returned". 
+            
+            -> They are often used for "short, one-time operations" where 
+                a full function definition would be unnecessarily verbose.
+
+            -> syntax
+
+                lambda arguments : expression
+
+            -> Using lambda we can write one liner functions called IILE 
+
+                Immediately Invoked Lambda Expression 
+
+                
+
