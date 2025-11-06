@@ -303,10 +303,38 @@ print((lambda num : num % 2 == 0)(11))
 print((lambda num : num % 2 == 0)(13))
 print((lambda num : num % 2 == 0)(12))
 
+
+# without lambda 
+def check_number(num):
+    if num > 0:
+        return "Positive"
+    elif num < 0:
+        return "Negative"
+    else:
+        return "Zero"
+
+print(check_number(0))
+
+# This will cause a syntax error:    
+# (lambda num: 
+#     if num > 0:
+#         "Positive"
+#     elif num < 0:
+#         "Negative"
+#     else:
+#         "Zero"
+# )(0)
+
+# print((lambda num : "Positive" if num > 0 elif num < 0 "Negative" else "Zero")(0))
+
+# ✔ You can use nested conditional expressions (a if cond1 else b if cond2 else c)
+
+# ❌ You cannot use elif directly inside a lambda
+
 # with lambda using conditions checks 
 # check for num is positive, negative and zero
 print((lambda num : "Positive" if num > 0 else "Negative" if num < 0 else "Zero")(0))
-    
+
 
 employee_info = lambda emp_name,emp_email,emp_location: print(f"Hi {emp_name}, your email is {emp_email} and work location is {emp_location}")
 employee_info(emp_name="ravi",emp_location="hyderabad",emp_email="ravi@gmail.com")
