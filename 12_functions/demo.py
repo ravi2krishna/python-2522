@@ -338,3 +338,108 @@ print((lambda num : "Positive" if num > 0 else "Negative" if num < 0 else "Zero"
 
 employee_info = lambda emp_name,emp_email,emp_location: print(f"Hi {emp_name}, your email is {emp_email} and work location is {emp_location}")
 employee_info(emp_name="ravi",emp_location="hyderabad",emp_email="ravi@gmail.com")
+
+# without map()
+# Write a script/program to take a list of numbers and return the square of list of numbers
+# [1,2,3,4,5] ==> [1,4,9,16,25]
+
+def square_list(numbers):
+    squared_list = []
+    for num in numbers:
+        squared_list.append(num * num)
+    return squared_list
+    
+print(square_list([1,2,3,4,5]))
+
+# with map()
+# Write a script/program to take a list of numbers and return the square of list of numbers
+# [1,2,3,4,5] ==> [1,4,9,16,25]
+
+# map(function, iterable)        
+print(map(lambda num: num * num,[1,2,3,4,5]))  
+    
+print(list(map(lambda num: num * num,[1,2,3,4,5])))  
+
+# one real world use case 
+products = [
+    {"name": "Laptop", "price": 80000, "discount": 10},
+    {"name": "Phone", "price": 50000, "discount": 5},
+    {"name": "Headphones", "price": 2000, "discount": 15},
+    {"name": "Charger", "price": 1500, "discount": 0},
+    {"name": "Camera", "price": 30000, "discount": 20},
+]
+
+price_after_discounts = list(map(lambda p: {"name": p["name"],"final_price": p["price"] - (p["price"]) * p[ "discount"] / 100 },products))
+print(price_after_discounts)
+
+# without filter()
+# Write a script/program to take a list of numbers and return the even list of numbers 
+# [1,2,3,4,5,6,7,8,9,10] ==> [2,4,6,8,10]
+
+def evened_list(numbers):
+    even_list = []
+    for num in numbers:
+        if num % 2 == 0:
+            even_list.append(num)
+    return even_list
+    
+print(evened_list([1,2,3,4,5,6,7,8,9,10]))
+
+# with filter()
+# Write a script/program to take a list of numbers and return the even list of numbers 
+# [1,2,3,4,5,6,7,8,9,10] ==> [2,4,6,8,10]
+
+# filter(function, iterable)        
+print(filter(lambda num: num % 2 == 0,[1,2,3,4,5,6,7,8,9,10]))  
+
+print(list(filter(lambda num: num % 2 == 0,[1,2,3,4,5,6,7,8,9,10])))      
+ 
+# one real world use case 
+products = [
+    {"name": "Laptop", "price": 80000, "discount": 10},
+    {"name": "Phone", "price": 50000, "discount": 5},
+    {"name": "Headphones", "price": 2000, "discount": 15},
+    {"name": "Charger", "price": 1500, "discount": 0},
+    {"name": "Camera", "price": 30000, "discount": 20},
+]
+
+# Give me products which are above 10000 price
+high_price_products = list(filter(lambda p: p["price"] > 10000,products))
+print(high_price_products)
+
+# without reduce()
+# Write a script/program to take a list of numbers and return the product of all numbers 
+# [1,2,3,4,5] ==> [1*2*3*4*5 ==> 120]
+
+def multiply_list(numbers):
+    result = 1
+    for num in numbers:
+        result = result * num
+    return result
+
+print(multiply_list([1,2,3,4,5]))
+
+# with reduce()
+# Write a script/program to take a list of numbers and return the product of all numbers 
+# [1,2,3,4,5] ==> [1*2*3*4*5 ==> 120]
+
+from functools import reduce
+print(reduce(lambda result,num: result * num, [1,2,3,4,5]))
+
+# one real world use case 
+products = [
+    {"name": "Laptop", "price": 80000, "discount": 10},
+    {"name": "Phone", "price": 50000, "discount": 5},
+    {"name": "Headphones", "price": 2000, "discount": 15},
+    {"name": "Charger", "price": 1500, "discount": 0},
+    {"name": "Camera", "price": 30000, "discount": 20},
+]
+
+# Data Aggregation ==> Calculate Total Inventory Value Of All Products 
+total_cart_value = reduce(lambda total,p: total + p["price"], products,0) 
+print(total_cart_value)
+
+# Finding the maximum element with an initial value ==> reduce with initial value reference 
+# data = [10, 5, 20, 15]
+# max_value = reduce(lambda x, y: x if x > y else y, data, 0)
+# print(f"Maximum value: {max_value}")
