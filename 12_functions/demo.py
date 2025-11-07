@@ -436,10 +436,8 @@ products = [
 ]
 
 # Data Aggregation ==> Calculate Total Inventory Value Of All Products 
-total_cart_value = reduce(lambda total,p: total + p["price"], products,0) 
+# List comprehension
+prices = [p["price"] for p in products]
+print(prices)
+total_cart_value = reduce(lambda total,price: total + price, prices) 
 print(total_cart_value)
-
-# Finding the maximum element with an initial value ==> reduce with initial value reference 
-# data = [10, 5, 20, 15]
-# max_value = reduce(lambda x, y: x if x > y else y, data, 0)
-# print(f"Maximum value: {max_value}")
