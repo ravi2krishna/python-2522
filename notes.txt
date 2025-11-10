@@ -1327,6 +1327,8 @@
 
             -> Created By User 
 
+            -> import using file name 
+
         -> External Modules 
 
             -> Provided by 3rd party vendors 
@@ -1347,3 +1349,24 @@
 
 
 
+10th Nov 2025
+=============
+
+    -> Reusability
+
+        -> Block Of Code - functions (function_name)
+
+        -> A File Of Code - modules (file_name)
+
+        -> Folder of Code - packages (folder_name)
+
+    -> Package 
+
+        -> A folder with multiple "modules" (multiple python files)
+
+        -> A package contains a special file named as __init__.py 
+
+            -> __init__.py, it can be blank, but generally we keep start up initial data or
+                start up configurations 
+            
+            -> In order to use package, use name of the folder 
