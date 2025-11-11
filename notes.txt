@@ -1370,3 +1370,78 @@
                 start up configurations 
             
             -> In order to use package, use name of the folder 
+
+
+11th Nov 2025
+=============
+
+    -> File Management With Python
+
+        -> All the activities we performed so far, were dealing with 
+            Non-persistent Storage (RAM / MEMORY)
+
+            -> Non-persistent Storage is "Temporary" 
+
+        -> Now the Requirement is work with Persistent Storage (Hard Disk - HDD)
+
+            -> Persistent Storage is "Permanent" 
+
+        -> File Operations 
+
+            -> CRUD 
+
+                -> Create File     
+                -> Read File 
+                -> Update File 
+                -> Delete File 
+
+    -> To Work with any type of file, python has provided 
+
+        -> open() function 
+
+            -> modes 
+
+                -> r - read 
+                -> w - write 
+                -> a - append 
+                -> etc 
+
+        -> syntax 1 
+
+            open("file_path","mode"):
+                Statements 
+            
+            open("file.txt","r"):
+                Statements 
+            
+            -> NOTE: Here we need to explicitly close the files after operations are performed
+
+
+        -> syntax 2 (recommended)
+
+            with open("file_path","mode") as alias_name:
+                Statements 
+            
+            with open("file.txt","r") file_data:
+                Statements 
+
+            -> NOTE: Here implicitly the files are closed, after operations are performed   
+
+        -> File Reading "r" mode
+
+            -> read()
+            -> readline()
+            -> readlines() 
+
+        -> File Writing "w" mode
+
+            -> write 
+            -> writelines 
+
+            -> NOTE: in "w" mode, previous data is overwritten 
+
+        -> File Writing "a" mode [ Append Mode ]
+
+            -> NOTE: in "a" mode, previous data is not overwritten 
+
+            
