@@ -1444,4 +1444,23 @@
 
             -> NOTE: in "a" mode, previous data is not overwritten 
 
-            
+
+12th Nov 2025
+=============
+
+    -> Folders Management With Python
+
+        -> "os" module 
+        -> "shutil" module 
+    
+    -> Create Folders and Delete Folders 
+
+    -> Working with "csv" file 
+
+        -> Very commonly used with Data Oriented Applications 
+
+    -> We have "csv" modules to handle csv file 
+
+    -> For fixed data sets we can use reader functionality from csv module 
+
+    -> For changing data sets we can use DictReader functionality from csv module 
