@@ -1464,3 +1464,37 @@
     -> For fixed data sets we can use reader functionality from csv module 
 
     -> For changing data sets we can use DictReader functionality from csv module 
+
+13th Nov 2025
+=============
+
+    -> Writing Data To CSV Files 
+
+        -> reader
+        -> writer 
+        -> DictReader
+        -> DictWriter 
+
+    -> Working with JSON Files (Dictionary Like Data)
+
+    -> JSON (JavaScript Object Notation) is a human-readable, text-based format 
+    for "storing" and "exchanging" data that is widely used for 
+    web applications, APIs, and configuration files. 
+
+    -> JSON represents data as key-value pairs within objects 
+        (enclosed in curly braces {}) -> same as Dictionary in python 
+
+    -> Very Commonly Used in Application Development (API's)
+
+    -> We have "json" module built in python standard library 
+
+    -> json operations
+
+        -> dump -> as a file we can store data accepts data and filename
+
+        -> load -> from a json file we can read data 
+
+        -> dumps -> object based writing 
+
+        -> loads -> object based reading
+
