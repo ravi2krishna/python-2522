@@ -9,16 +9,15 @@
         ]
     },
     "102": {
-        "name": "John",
+        "name": "Krishna",
         "scores": [
             90,
-            80,
-            70
+            80
         ],
         "skills": [
+            "java",
             "git",
-            "cloud",
-            "java"
+            "python"
         ]
     }
 }
