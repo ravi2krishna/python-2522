@@ -143,4 +143,61 @@ finally:
     print("Program Execution Completed")
 print("=" * 50)
     
+# Check Exceptions 
+# print(help(Exception))
 
+# Create Custom Exception Syntax 
+class MyCustomError(Exception):
+    pass 
+
+# Custom Exceptions 
+class AgeError(Exception) :
+    pass
+
+age = int(input("Enter Age: "))
+if age < 18:
+    raise AgeError("Your Age Must be at least 18 Years To Register")
+else:
+    print("Registration Successful")
+# AgeError: Your Age Must be at least 18 Years To Register
+
+    
+# Custom Exceptions For ID 
+class IDError(Exception) :
+    pass
+
+age = int(input("Enter Age: "))
+if age < 18:
+    raise AgeError("Your Age Must be at least 18 Years To Register")
+else:
+    has_id = input("Do You Have ID ? (yes/no): ")
+    if has_id != "yes":
+        raise IDError("You Must Have ID To Register")
+print("Registration Successful")
+
+# Now handle the Exceptions
+age = int(input("Enter Age: "))
+try:
+    if age < 18:
+        raise AgeError("Your Age Must be at least 18 Years To Register")
+except:
+    print("Please Enter 18 or Above")
+else:
+    print("Registration Successful")
+
+print("=" * 50)
+    
+# Handle Multiple Exceptions
+age = int(input("Enter Age: "))
+try:
+    if age < 18:
+        raise AgeError
+    has_id = input("Do You Have ID ? (yes/no): ")
+    if has_id != "yes":
+        raise IDError
+except AgeError:
+    print("You are not 18 Yet")
+except IDError:
+    print("ID is Mandatory")   
+else:
+    print("Registration Successful")
