@@ -3,9 +3,10 @@ class Student:
     
     # class variables shared across all instances/objects of this class
     institute_name = "Edify"
+    global_discount = 0.1 
     
     # constructor with instance data 
-    def __init__(self, student_id, student_name, student_age, student_email, student_mobile_number):
+    def __init__(self, student_id=None, student_name=None, student_age=None, student_email=None, student_mobile_number=None):
         self.student_id = student_id
         self.student_name = student_name
         self.student_age = student_age
@@ -28,7 +29,7 @@ class Student:
         print("=" * 50)
     
     # instance method -> display complete student info -> click functionality 
-    def student_basic_info(self):
+    def student_complete_info(self):
         print("=" * 50)
         print("             Complete Student Information")
         print(f"Student ID: {self.student_id}")
@@ -64,6 +65,53 @@ class Student:
         return score_credits
     
     # calculate achievement status (combining sessions credits & score credits)
+    def achievement_status(self):
+        final_credits = self.sessions_credits_cal() + self.score_credits_cal(90)
+        if final_credits >= 10:
+            print("Got 🥇")
+        elif final_credits >= 8:
+            print("Got 🥈")
+        else:
+            print("Got 🥉")
+    
+    # give rating to trainer
+    def trainer_rating_calculate(self):
+        trainer_rating = int(input("Enter Trainer Rating (1-5): "))
+        if trainer_rating >=5: 
+            return 5000
+        else:
+            return 0
+    
+    # After 3 months New Functionality Added 
+    # Calculate Course Fee Functionality 
+    def course_fee_cal(self):
+        coupon_discount = 0
+        course_fee = 30000
+        # if COUPON is "PROMO" give 5000 discount 
+        # if COUPON is "FIFTY" give 15000 discount 
+        print("=" * 50)
+        print("             Course Fee Calculation")
+        print("=" * 50)
+        
+        print(f"Original Fee: {course_fee}")
+        # applying global discount
+        gd = course_fee * Student.global_discount
+        
+        coupon = input("Enter Coupon Code: ")
+        if coupon == "PROMO":
+            coupon_discount = 5000
+            course_fee -= coupon_discount
+        elif coupon == "FIFTY":
+            coupon_discount = 15000
+            course_fee -= coupon_discount
+        
+        final_fee = course_fee - gd 
+        
+        print(f"Discount Through Coupon: {coupon_discount}")
+        print(f"Discount Through Global: {gd}")
+        print(f"Final Course Fee: {final_fee}")
+        
+            
     
     
         
