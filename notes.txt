@@ -1941,3 +1941,10 @@
         -> Hybrid Inheritance
 
             -> Combination or two or more types 
+
+29th Nov 2025
+=============
+
+    -> How To Apply Inheritance 
+
+    
